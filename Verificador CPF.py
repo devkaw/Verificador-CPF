@@ -1,5 +1,5 @@
 while True:
-    print('Bem vindo ao Verificador CPF, o programa irá adivimhar os dois número verificadores do seu CPF. Ou seja, os dois números depois do hífen.')
+    print('Bem vindo ao Verificador CPF, o programa irá adivinhar os dois números verificadores do seu CPF. Ou seja, os dois números depois do hífen.')
     entrada = input('Digite o seu CPF, cada número separado por um espaço, sem os pontos e SEM DIGITAR OS NÚMEROS DEPOIS DO HÍFEN: ')
     CPF = list(map(int,entrada.split()))
     num1 = (CPF[0] * 10 + CPF[1] * 9 + CPF[2] * 8 + CPF[3] * 7 + CPF[4] * 6 + CPF[5] * 5 + CPF[6] * 4 + CPF[7] * 3 + CPF[8] * 2) % 11
