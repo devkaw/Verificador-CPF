@@ -1,0 +1,1 @@
+**Já pensou em poder descobrir quais são os dígitos verificadores de qualquer CPF? Basta você usar esse programa em Python. De brinde, você pode até saber os prováveis estados onde o CPF pode ter sido emitido.
